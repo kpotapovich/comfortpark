@@ -1,0 +1,160 @@
+
+
+body{
+    margin: 0;
+
+    line-height: 1.6;
+
+}
+
+.header {
+    color: white;
+    position: relative;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.menu-items {
+    padding-right: 60px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.number {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.image {
+    background-image: url("img/moscow-3934585_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+
+
+}
+
+.hover {
+    width: 37%;
+    border-bottom: 4px solid #fff;
+}
+
+.text-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header-comfort{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.header-complex {
+   font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.comfort{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+
+}
+.comfort-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section{
+    width: 1140px;
+    margin: auto;
+    padding: 2% 0 ;
+}
+
+.block-text {
+    text-align: center;
+}
+
+.six{
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.text-six{
+    font-size: 20px;
+}
+
+.caption{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.section-box{
+    background-color: #F5F5F5;
+    display: flex;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+
+.box-class {
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    /*border: 6px solid #F5F5F5;*/
+    margin-bottom: 30px;
+    margin-right: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.text-p{
+    font-size: 18px;
+}
+
+.img-inons{
+    padding-top: 40px;
+}
