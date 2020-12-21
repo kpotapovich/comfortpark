@@ -7,16 +7,23 @@ body{
 
 }
 
+
 .header {
     color: white;
-    position: relative;
+
 }
+
 
 .header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    transition: .5s;
+    width: 100%;
 }
+
+
 
 .header-menu {
     display: flex;
@@ -27,7 +34,7 @@ body{
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -35,6 +42,16 @@ a {
     padding-right: 60px;
     font-size: 20px;
     list-style-type: none;
+    text-transform: uppercase;
+
+    font-weight: normal;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.menu-items:hover{
+    text-shadow: 1px 1px 0 lighten(bg, 15%), 2px 2px 0 lighten($bg, 10%), 3px 3px 0 lighten($bg, 5%);
+    transform: translate(-3px,-3px);
 }
 
 .number {
@@ -43,7 +60,7 @@ a {
 }
 
 .image {
-    background-image: url("img/moscow-3934585_1920.jpg");
+    background-image: url("img/5927.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,13 +72,14 @@ a {
 .hover {
     width: 37%;
     border-bottom: 4px solid #fff;
+
 }
 
 .text-hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 20%;
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -86,10 +104,18 @@ a {
     margin: 30px 0;
 
 }
+
+.logo{
+    margin: auto;
+    width: 200px;
+    display: flex;
+}
+
+
 .comfort-text {
     text-align: center;
     font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -122,6 +148,7 @@ a {
     font-size: 50px;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -157,4 +184,26 @@ a {
 
 .img-inons{
     padding-top: 40px;
+}
+
+/* section 3 */
+.section_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+
+.bed_room {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.room {
+    width: 350px;
+    height: 300px;
+
 }
