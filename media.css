@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+    .burger {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .number {
+        display: none;
+    }
+}
+
+@media (max-width: 976px){
+
+    .box {
+        display: inline-block;
+    }
+    .image {
+        height: 90vh;
+    }
+    .caption{
+        font-size: 60px;
+    }
+    .map_h3{
+        font-size: 30px;
+        margin: 20px 30px;
+    }
+}

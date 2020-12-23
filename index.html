@@ -3,35 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<!--	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">-->
-	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 <header id="showcase" class="header">
 	<div class="image">
 		<div class="header-flex" id="header_panel">
-			<ul class="header-menu">
-				<li class="menu-items">
-					<a href="#">О проекте</a>
-				</li>
-				<li class="menu-items">
-					<a href="#">Засположение</a>
-				</li>
-				<li class="menu-items">
-					<a href="#">Планировки</a>
-				</li>
-				<li class="menu-items">
-					<a href="#">Застройщик</a>
-				</li>
-				<li class="menu-items">
-					<a href="#">Контакты</a>
-				</li>
-			</ul>
+			<div class="burger" id="burger">
+					<span></span>
+			</div>
+				<ul class="header-menu" id="menu">
+					<li class="menu-items">
+						<a href="#">Расположение</a>
+					</li>
+					<li class="menu-items">
+						<a href="#">Планировки</a>
+					</li>
+					<li class="menu-items">
+						<a href="#">Застройщик</a>
+					</li>
+					<li class="menu-items">
+						<a href="#">Контакты</a>
+					</li>
+					<li class="menu-items">
+						<a href="#">О проекте</a>
+					</li>
+				</ul>
 			<div class="number">
 				<div>+375 (29) 378-55-43</div>
 			</div>
@@ -88,41 +94,41 @@
 	<div class="box">
 	<div class="box-class">
 		<div  class="img-inons">
-			<img src="https://img.icons8.com/ios/64/000000/place-marker--v1.png"/>
+			<img class="icons-img" src="https://img.icons8.com/ios/64/000000/place-marker--v1.png"/>
 		</div>
 		<div class="text-p">Преимущества проекта</div>
 	</div>
 	<div class="box-class">
 		<div  class="img-inons">
-			<img src="https://img.icons8.com/wired/64/000000/online-store.png"/>
+			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/online-store.png"/>
 		</div>
 		<div class="text-p">Торговый центр и коммерческие помещения на первом этаже</div>
 
 	</div>
 	<div class="box-class">
 		<div  class="img-inons">
-			<img src="https://img.icons8.com/wired/64/000000/leaf.png"/>
+			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/leaf.png"/>
 		</div>
 		<div class="text-p">Бульвар Грибоедова рядом с жильем</div>
 
 	</div>
 	<div class="box-class">
 		<div  class="img-inons">
-			<img src="https://img.icons8.com/wired/64/000000/garage.png"/>
+			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/garage.png"/>
 		</div>
 		<div class="text-p">Своя многоуровневая парковка</div>
 
 	</div>
 	<div class="box-class">
 		<div class="img-inons">
-			<img src="https://img.icons8.com/ios/64/000000/wallmount-camera.png"/>
+			<img class="icons-img" src="https://img.icons8.com/ios/64/000000/wallmount-camera.png"/>
 		</div>
 		<div class="text-p">Современное благоустройство и обслуживание</div>
 
 	</div>
 	<div class="box-class">
 		<div class="img-inons">
-			<img src="https://img.icons8.com/wired/64/000000/parent-guardian.png"/>
+			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/parent-guardian.png"/>
 		</div>
 		<div class="text-p">Дворовая территория только для жителей</div>
 
@@ -163,6 +169,83 @@
 		</div>
 	</div>
 </section>
+<section class="section-room">
+	<div class="map">
+		<h3 class="map_h3">Расположение жилья</h3>
+		<p class="map_p">Многофункциональный комплекс Фарфоровый расположен в квартале
+			пр.Машерова-ул.Кропоткина-ул.В.Хоружей-ул.Червякова в г.Минске.</p>
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.5838466304235!2d27.554156225666762!3d53.921370585960545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcff8ab809ac5%3A0x44874d1de74388dd!2sMk%20Farforovyy!5e0!3m2!1sen!2sby!4v1608580970857!5m2!1sen!2sby" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</section>
+<section class="section-room">
+	<div class="description">
+		<h3 class="description_text">Решение планировки квартир</h3>
+		<p class="description_p">Дом сдается в сентябре 2021 г.</p>
+	</div>
+</section>
+<section class="section-room">
+	<div class="decision_room">
+		<div class="decision">
+			<img class="screen_img" src="img/4S-261.69-1.jpg">
+		</div>
+		<div class="decision">
+			<img class="screen_img" src="img/4S-390.10-2.jpg">
+		</div>
+	</div>
+</section>
+<section class="section-room">
+	<div class="section">
+		<div class="foto_img" >
+			<div class="foto_room">
+				<img class="room_d" src="img/room/1.1-1536x1152.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/2.1-1536x1152.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/3-3-1229x1536.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/4.2-1229x1536.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/5-2-1229x1536.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/6-2-1536x1536.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/7-2-1229x1536.jpg">
+			</div>
+			<div class="foto_room">
+				<img class="room_d" src="img/room/8-2-1229x1536.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-room">
+		<div class="map">
+			<h3 class="map_h3">Отдел продаж:</h3>
+			<p class="map_p"> г.Минск, ул.В.Хоружей, 33а
+				тел:<br> +375-17-395-15-28, +375-29-622-21-47,
+				<br>+375-29-129-29-01 </p>
+			<p class="map_p">C 9.00 до 19.00 будние дни,
+				суббота по предварительной записи</p>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1367.125327833578!2d27.554256072201227!3d53.9216535240613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf84fbc5c6c1%3A0xa39b6072773b5478!2svulica%20Viery%20Charu%C5%BEaj%2033%D0%B0%2C%20Minsk!5e0!3m2!1sen!2sby!4v1608647984724!5m2!1sen!2sby" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe>
+</section>
+<footer class="section-room">
+	<div class="col_footer">
+		<div class="col_md">
+			<p>© 2020 СООО "ИНФОРЕАЛТ" УНП 191301975 зарегистрировано в Мингорисполком 30.04.2010г.</p>
+		</div>
+		<div class="col_mail">e-mail:
+			<a class="mail" href="#">mir-dd@yandex.by</a>
+		</div>
+	</div>
+</footer>
+
+
 
 <script src="index.js"></script>
 </body>
