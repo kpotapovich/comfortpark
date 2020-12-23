@@ -18,29 +18,38 @@
 <header id="showcase" class="header">
 	<div class="image">
 		<div class="header-flex" id="header_panel">
-			<div class="burger" id="burger">
-					<span></span>
+			<div class="burger_container" id="burger_container">
+				<div class="burger" id="burger">
+						<span></span>
+				</div>
 			</div>
-				<ul class="header-menu" id="menu">
-					<li class="menu-items">
-						<a href="#">Расположение</a>
-					</li>
-					<li class="menu-items">
-						<a href="#">Планировки</a>
-					</li>
-					<li class="menu-items">
-						<a href="#">Застройщик</a>
-					</li>
-					<li class="menu-items">
-						<a href="#">Контакты</a>
-					</li>
-					<li class="menu-items">
-						<a href="#">О проекте</a>
-					</li>
-				</ul>
-			<div class="number">
-				<div>+375 (29) 378-55-43</div>
-			</div>
+				<div id="menu_container" class="menu_container">
+					<ul class="menu_ul" id="menu_ul">
+						<li class="menu-items">
+							<a href="#">Расположение</a>
+						</li>
+						<li class="menu-items">
+							<a href="#">Планировки</a>
+						</li>
+						<li class="menu-items">
+							<a href="#">Застройщик</a>
+						</li>
+						<li class="menu-items">
+							<a href="#">Контакты</a>
+						</li>
+						<li class="menu-items">
+							<a href="#">О проекте</a>
+						</li>
+						<li class="menu-items">
+							<div class="number" id="number">
+								<div>+375 (29) 378-55-43</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+
 		</div>
 
 
@@ -93,34 +102,34 @@
 	<h2 class="caption">Преимущества проекта</h2>
 	<div class="box">
 	<div class="box-class">
-		<div  class="img-inons">
+		<div  class="img-icons">
 			<img class="icons-img" src="https://img.icons8.com/ios/64/000000/place-marker--v1.png"/>
 		</div>
 		<div class="text-p">Преимущества проекта</div>
 	</div>
 	<div class="box-class">
-		<div  class="img-inons">
+		<div  class="img-icons">
 			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/online-store.png"/>
 		</div>
 		<div class="text-p">Торговый центр и коммерческие помещения на первом этаже</div>
 
 	</div>
 	<div class="box-class">
-		<div  class="img-inons">
+		<div  class="img-icons">
 			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/leaf.png"/>
 		</div>
 		<div class="text-p">Бульвар Грибоедова рядом с жильем</div>
 
 	</div>
 	<div class="box-class">
-		<div  class="img-inons">
+		<div  class="img-icons">
 			<img class="icons-img" src="https://img.icons8.com/wired/64/000000/garage.png"/>
 		</div>
 		<div class="text-p">Своя многоуровневая парковка</div>
 
 	</div>
 	<div class="box-class">
-		<div class="img-inons">
+		<div class="img-icons">
 			<img class="icons-img" src="https://img.icons8.com/ios/64/000000/wallmount-camera.png"/>
 		</div>
 		<div class="text-p">Современное благоустройство и обслуживание</div>
@@ -170,13 +179,17 @@
 	</div>
 </section>
 <section class="section-room">
-	<div class="map">
-		<h3 class="map_h3">Расположение жилья</h3>
-		<p class="map_p">Многофункциональный комплекс Фарфоровый расположен в квартале
-			пр.Машерова-ул.Кропоткина-ул.В.Хоружей-ул.Червякова в г.Минске.</p>
+	<div class="map_wrapper t-width t-width_100 t-width">
+		<div class="map">
+			<h3 class="map_h3">Расположение жилья</h3>
+			<p class="map_p">Многофункциональный комплекс Фарфоровый расположен в квартале
+				пр.Машерова-ул.Кропоткина-ул.В.Хоружей-ул.Червякова в г.Минске.</p>
+		</div>
 	</div>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.5838466304235!2d27.554156225666762!3d53.921370585960545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcff8ab809ac5%3A0x44874d1de74388dd!2sMk%20Farforovyy!5e0!3m2!1sen!2sby!4v1608580970857!5m2!1sen!2sby" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
+
+
 <section class="section-room">
 	<div class="description">
 		<h3 class="description_text">Решение планировки квартир</h3>
