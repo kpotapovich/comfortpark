@@ -2,23 +2,25 @@
     .burger {
         display: none;
     }
+
     .section {
         width: 960px;
     }
+
     .number {
         display: none;
     }
 }
 
-@media (max-width: 980px){
+@media (max-width: 980px) {
 
     .burger_container {
-       width: 100%;
+        width: 100%;
         height: 65px;
         z-index: 999;
     }
 
-    .burger{
+    .burger {
         position: absolute;
         right: 20px;
         top: 9px;
@@ -27,7 +29,8 @@
         cursor: pointer;
         display: block;
     }
-    .burger span, .burger span:before, .burger span:after{
+
+    .burger span, .burger span:before, .burger span:after {
         width: 100%;
         position: absolute;
         height: 6px;
@@ -37,32 +40,37 @@
         border-radius: 5px;
     }
 
-    .burger span:before{
+    .burger span:before {
         content: "";
         top: -20px;
         transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-    .burger span{
+
+    .burger span {
         top: 20px;
     }
-    .burger span:after{
+
+    .burger span:after {
         content: "";
         bottom: -20px;
         transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-    .burger span.active:before{
+
+    .burger span.active:before {
         content: "";
         top: 0px;
         transform: rotate(45deg);
         transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    .burger span.active:after{
+
+    .burger span.active:after {
         content: "";
         bottom: 0;
         transform: rotate(-45deg);
         transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    .burger span.active{
+
+    .burger span.active {
         background: rgba(255, 255, 255, 0);
     }
 
@@ -76,7 +84,8 @@
         top: -260px;
         transition: top 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    .menu_container.animate{
+
+    .menu_container.animate {
         top: 65px;
     }
 
@@ -91,6 +100,7 @@
         padding-right: 0;
         padding-bottom: 10px;
     }
+
     .number {
         display: block;
         text-align: center;
@@ -102,68 +112,79 @@
     .block {
         display: block;
     }
+
     .block-text {
         padding: 30px;
     }
-    .six{
+
+    .six {
         font-size: 45px;
     }
-    .text-six{
+
+    .text-six {
         font-size: 35px;
     }
 
     .section_img {
         display: block;
     }
-.room{
-    width: 500px;
-}
 
-.map_wrapper{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: auto;
-    max-width: 1160px;
-    z-index: 1;
-}
+    .room {
+        width: 500px;
+    }
 
-.map_wrapper, .map{
-    position: initial;
-}
+    .map_wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        max-width: 1160px;
+        z-index: 1;
+    }
+
+    .map_wrapper, .map {
+        position: initial;
+    }
 
 
-.map{
-    width: 100%;
-    margin: 0;
-    padding: 45px 20px;
-    min-height: auto;
-}
+    .map {
+        width: 100%;
+        margin: 0;
+        padding: 45px 20px;
+        min-height: auto;
+    }
 
 
     .box-class {
         width: 400px;
     }
+
     .box {
         display: inline-block;
     }
+
     .image {
         height: 90vh;
     }
+
     .img-icons {
         padding-top: 0;
     }
+
     .icons-img {
         width: 120px;
     }
+
     .text-p {
         font-size: 25px;
     }
-    .caption{
+
+    .caption {
         font-size: 60px;
     }
-    .map_h3{
+
+    .map_h3 {
         font-size: 30px;
         margin: 20px 30px;
     }
@@ -176,18 +197,11 @@
     }
 
 
-
-
-
-
-
-
-
-
     .box {
         display: inline-block;
         margin-top: 0;
     }
+
     .img-icons {
         padding-top: 0;
     }
