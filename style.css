@@ -167,9 +167,9 @@ a {
     font-size: 18px;
 }
 
-.img-inons {
-    padding-top: 40px;
-}
+/*.img-inons {*/
+/*    padding-top: 40px;*/
+/*}*/
 
 /* section 3 */
 
@@ -200,6 +200,9 @@ a {
 }
 
 /* section 4 */
+.map_wrapper {
+    position: relative;
+}
 
 
 .map {

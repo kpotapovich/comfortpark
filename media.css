@@ -118,20 +118,13 @@
     }
 
     .room {
-        width: 500px;
+        width: 700px;
+        height: 500px;
     }
+
+
 
     .map_wrapper {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        margin: auto;
-        max-width: 1160px;
-        z-index: 1;
-    }
-
-    .map_wrapper, .map {
         position: initial;
     }
 
@@ -180,6 +173,32 @@
 
 
 @media (max-width: 756px) {
+    .logo {
+        width: 400px;
+    }
+    .six {
+        font-size: 65px;
+    }
+
+
+    .img-icons{
+        padding-bottom: 20px;
+    }
+    .text-p{
+        font-size: 35px;
+    }
+    .icons-img {
+        width: 160px;
+    }
+
+
+    .room {
+        height: 600px;
+        width: 900px;
+    }
+
+
+
     .image {
         height: 80vh;
     }
