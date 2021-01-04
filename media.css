@@ -176,6 +176,11 @@
     .header-comfort{
         font-size: 40px;
     }
+    .screen_img{
+        height: 0;
+        width: 100%;
+    }
+
 
 }
 
@@ -267,6 +272,12 @@
     }
     .caption{
         font-size: 35px;
+    }
+    .description{
+        padding: 0;
+    }
+    .description_text{
+        font-size: 30px;
     }
 
 }
