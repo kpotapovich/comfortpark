@@ -188,6 +188,7 @@
     }
     .col_md{
         width: auto;
+        margin: 10px;
     }
 
 }
@@ -282,7 +283,7 @@
         font-size: 35px;
     }
     .description{
-        padding: 0;
+        padding: 0 20px;
     }
     .description_text{
         font-size: 30px;
