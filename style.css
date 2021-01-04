@@ -113,6 +113,9 @@ a {
     width: 1140px;
     margin: auto;
     padding: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .block-text {

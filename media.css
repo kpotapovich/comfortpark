@@ -149,14 +149,6 @@
     }
 
 
-    .box-class {
-        width: 400px;
-    }
-
-    .box {
-        display: inline-block;
-    }
-
     .image {
         height: 70vh;
     }
@@ -201,13 +193,15 @@
     /*    font-size: 65px;*/
     /*}*/
 
+
     .img-icons{
         padding-bottom: 20px;
     }
 
-    /*.icons-img {*/
-    /*    width: 160px;*/
-    /*}*/
+    .icons-img {
+        width: 100px;
+    }
+
     .room {
         height: 500px;
         width: 600px;
@@ -220,6 +214,9 @@
         display: inline-block;
         margin-top: 0;
     }
+    .box-class{
+        margin-right: 0;
+    }
 
     .img-icons {
         padding-top: 0;
@@ -227,16 +224,18 @@
 
     .text-p {
         font-size: 20px;
+        padding: 10px;
     }
 
     /*карты и текст над ним*/
     .map_p {
-        font-size: 21px;
+        font-size: 16px;
         margin: 10px 30px;
     }
     .comfort-text{
         font-size: 30px;
     }
+
 
 }
 
@@ -251,6 +250,12 @@
         height: 400px;
         width: 400px;
     }
+    .icons-img{
+        width: 70px;
+    }
+    .text-p {
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 460px){
     .room{
@@ -261,7 +266,16 @@
         font-size: 25px;
     }
     .caption{
-        font-size: 45px;
+        font-size: 35px;
     }
 
+}
+
+@media screen and (max-width: 388px){
+    .map_h3{
+        font-size: 25px;
+    }
+    .map_p{
+        font-size: 14px;
+    }
 }
