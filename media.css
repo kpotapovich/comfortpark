@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .burger {
         display: none;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .burger_container {
         width: 100%;
         height: 65px;
@@ -116,6 +116,9 @@
     .section_img {
         display: block;
     }
+    .map_room {
+        align-items: end;
+    }
 
     .room {
         width: 700px;
@@ -132,7 +135,8 @@
     .map {
         width: 100%;
         margin: 0;
-        padding: 45px 20px;
+        height: 220px;
+
         min-height: auto;
     }
 
@@ -172,14 +176,13 @@
 }
 
 
-@media (max-width: 756px) {
+@media screen and (max-width: 756px) {
     .logo {
         width: 400px;
     }
     .six {
         font-size: 65px;
     }
-
 
     .img-icons{
         padding-bottom: 20px;
@@ -190,15 +193,10 @@
     .icons-img {
         width: 160px;
     }
-
-
     .room {
         height: 600px;
         width: 900px;
     }
-
-
-
     .image {
         height: 80vh;
     }
@@ -215,4 +213,11 @@
     .text-p {
         font-size: 25px;
     }
+
+    /*карты и текст над ним*/
+    .map_p {
+        font-size: 21px;
+        margin: 10px 30px;
+    }
+
 }
