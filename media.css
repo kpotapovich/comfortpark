@@ -177,9 +177,10 @@
         font-size: 40px;
     }
     .screen_img{
-        height: auto;
+        height: 100%;
         width: 100%;
     }
+
     /*footer*/
     .col_footer{
         text-align: center;
