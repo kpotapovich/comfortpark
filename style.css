@@ -52,7 +52,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
 }
 
 .hover {
@@ -197,6 +197,9 @@ a {
 .room {
     width: 350px;
     height: 300px;
+    /*width: 100%;*/
+    /*max-width: 500px;*/
+    /*height: auto;*/
 
 }
 
