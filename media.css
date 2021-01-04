@@ -94,7 +94,7 @@
     .menu-items {
         padding-right: 0;
         padding-bottom: 10px;
-        font-size: 42px;
+        /*font-size: 42px;*/
     }
 
     .number {
@@ -158,7 +158,7 @@
     }
 
     .image {
-        height: 50vh;
+        height: 70vh;
     }
 
     .img-icons {
@@ -173,10 +173,6 @@
         font-size: 25px;
     }
 
-    .caption {
-        font-size: 60px;
-    }
-
     .map_h3 {
         font-size: 30px;
         margin: 0px 30px;
@@ -185,13 +181,17 @@
         font-size: 21px;
         margin: 10px 30px;
     }
+    .header-comfort{
+        font-size: 40px;
+    }
+
 }
 
 
 
 @media screen and (max-width: 756px) {
     .logo {
-        width: 400px;
+        width: 250px;
     }
     .six {
         font-size: 65px;
@@ -200,12 +200,10 @@
     .img-icons{
         padding-bottom: 20px;
     }
-    .text-p{
-        font-size: 35px;
-    }
-    .icons-img {
-        width: 160px;
-    }
+
+    /*.icons-img {*/
+    /*    width: 160px;*/
+    /*}*/
     .room {
         height: 500px;
         width: 600px;
@@ -232,12 +230,15 @@
         font-size: 21px;
         margin: 10px 30px;
     }
+    .comfort-text{
+        font-size: 30px;
+    }
 
 }
 
 @media screen and (max-width: 612px){
-    .logo {
-        width: 400px;
+    .header-comfort{
+        font-size: 30px;
     }
     .image {
         height: 50vh;
