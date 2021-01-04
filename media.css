@@ -171,7 +171,11 @@
 
     .map_h3 {
         font-size: 30px;
-        margin: 20px 30px;
+        margin: 0px 30px;
+    }
+    .map_p {
+        font-size: 21px;
+        margin: 10px 30px;
     }
 }
 
@@ -221,3 +225,5 @@
     }
 
 }
+
+
